@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	background: #2C3E50;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: var(--font-sans);
+}
+
+.container {
+	background: rgb(52, 73, 94);
+	width: 50rem;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.4);
+	max-width: 100%;
+	margin: 1rem;
+}
+
+.container h2 {
+	text-align: center;
+	background: rgb(33, 47, 60);
+	margin: 2rem;
+	padding: 0.5rem 0;
+	border-radius: 0.6rem;
+	margin-bottom: 3rem;
+	font-size: 2.4rem;
+
+}
+
+.container div {
+	text-align: center;
+	margin: 2rem 0;
+	padding: 0 2rem;
+}
+
+#word-input, #text-input{
+	max-width: calc(100% - 2rem);
+}
+
+#word-input {
+	background: white;
+	/*width: 100%;*/
+	width: 40rem;
+	border: none;
+	padding: 1rem;
+	border-radius: 0.6rem;
+	font-family: var(--font-sans);
+	/*margin: 0 2rem;*/
+}
+
+#text-input {
+	background: white;
+	width: 40rem;
+	border: none;
+	border-radius: 0.6rem;
+	padding: 1rem;
+	font-family: sans;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+	resize: none;
+	font-family: var(--font-sans);
+	/*margin: 0 2rem;*/
+}
+
+#text-input::-webkit-scrollbar {
+	display: none;
+}
+
+#count-btn {
+	border: none;
+	background: #efe;
+	padding: 0.7rem 1.5rem;
+	font-weight: bold;
+	border-radius: 0.4rem;
+}
