@@ -6,7 +6,7 @@ Word Frequency Counter is a web app that counts the number of times a word appea
 
 ### Getting started
 
-## Check out the [app here](https://wordfrequencycounter.surge.sh).
+## Check out the [app here](https://word-frequency-counter.vercel.app/).
 
 
 ## License
