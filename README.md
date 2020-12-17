@@ -15,4 +15,4 @@ Word Frequency Counter is open source licensed under the MIT license.
 
 
 ### Author
-[I. G Ifeanyichuwku (Ifex)](https://ig-ifex.netlify.app)
+[Gideon Idoko](https://github.com/IamGideonIdoko)
